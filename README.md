@@ -1,4 +1,5 @@
 # decentro_in_collections
+
 Collections
 
 For more information, please visit [https://decentro.tech](https://decentro.tech)
@@ -22,11 +23,13 @@ dependencies:
 ```
 dependencies:
   decentro_in_collections:
-    git: https://github.com/decentro-in/decentro-in-collections-sdk/tree/master/dart.git
+    git: https://github.com/decentro-in/decentro-in-collections-sdk-dart.git
 ```
 
 ### Local
+
 To use the package in your local drive, add the following dependency to your `pubspec.yaml`
+
 ```
 dependencies:
   decentro_in_collections:
@@ -72,36 +75,33 @@ try {
 
 All URIs are relative to *https://in.staging.decentro.tech*
 
-Class | Method | HTTP request | Description
------------- | ------------- | ------------- | -------------
-*CollectionsApi* | [**generatePaymentLink**](doc//CollectionsApi.md#generatepaymentlink) | **POST** /v2/payments/upi/link | Generate payment link
-*CollectionsApi* | [**getTransactionStatus**](doc//CollectionsApi.md#gettransactionstatus) | **GET** /v2/payments/transaction/{transaction_id}/status | Get transaction status
-*CollectionsApi* | [**issueCollectRequest**](doc//CollectionsApi.md#issuecollectrequest) | **POST** /v2/payments/collection | Issue collect request
-*CollectionsApi* | [**issueUpiRefund**](doc//CollectionsApi.md#issueupirefund) | **POST** /v2/payments/upi/refund | Issue UPI Refund
-*CollectionsApi* | [**validateUpiHandle**](doc//CollectionsApi.md#validateupihandle) | **POST** /v2/payments/vpa/validate | Validate UPI handle
-
+| Class            | Method                                                                  | HTTP request                                             | Description            |
+| ---------------- | ----------------------------------------------------------------------- | -------------------------------------------------------- | ---------------------- |
+| _CollectionsApi_ | [**generatePaymentLink**](doc//CollectionsApi.md#generatepaymentlink)   | **POST** /v2/payments/upi/link                           | Generate payment link  |
+| _CollectionsApi_ | [**getTransactionStatus**](doc//CollectionsApi.md#gettransactionstatus) | **GET** /v2/payments/transaction/{transaction_id}/status | Get transaction status |
+| _CollectionsApi_ | [**issueCollectRequest**](doc//CollectionsApi.md#issuecollectrequest)   | **POST** /v2/payments/collection                         | Issue collect request  |
+| _CollectionsApi_ | [**issueUpiRefund**](doc//CollectionsApi.md#issueupirefund)             | **POST** /v2/payments/upi/refund                         | Issue UPI Refund       |
+| _CollectionsApi_ | [**validateUpiHandle**](doc//CollectionsApi.md#validateupihandle)       | **POST** /v2/payments/vpa/validate                       | Validate UPI handle    |
 
 ## Documentation For Models
 
- - [GeneratePaymentLink400Response](doc//GeneratePaymentLink400Response.md)
- - [GeneratePaymentLinkRequest](doc//GeneratePaymentLinkRequest.md)
- - [GeneratePaymentLinkResponse](doc//GeneratePaymentLinkResponse.md)
- - [GeneratePaymentLinkResponseData](doc//GeneratePaymentLinkResponseData.md)
- - [GeneratePaymentLinkResponseDataPspUri](doc//GeneratePaymentLinkResponseDataPspUri.md)
- - [GetTransactionStatusResponse](doc//GetTransactionStatusResponse.md)
- - [GetTransactionStatusResponseData](doc//GetTransactionStatusResponseData.md)
- - [GetTransactionStatusResponseError](doc//GetTransactionStatusResponseError.md)
- - [IssueCollectRequest400Response](doc//IssueCollectRequest400Response.md)
- - [IssueCollectRequestRequest](doc//IssueCollectRequestRequest.md)
- - [IssueCollectRequestResponse](doc//IssueCollectRequestResponse.md)
- - [IssueCollectRequestResponseData](doc//IssueCollectRequestResponseData.md)
- - [IssueUpiRefund400Response](doc//IssueUpiRefund400Response.md)
- - [IssueUpiRefundRequest](doc//IssueUpiRefundRequest.md)
- - [IssueUpiRefundResponse](doc//IssueUpiRefundResponse.md)
- - [IssueUpiRefundResponseData](doc//IssueUpiRefundResponseData.md)
- - [ValidateUpiHandle400Response](doc//ValidateUpiHandle400Response.md)
- - [ValidateUpiHandleRequest](doc//ValidateUpiHandleRequest.md)
- - [ValidateUpiHandleResponse](doc//ValidateUpiHandleResponse.md)
- - [ValidateUpiHandleResponseData](doc//ValidateUpiHandleResponseData.md)
-
-
+- [GeneratePaymentLink400Response](doc//GeneratePaymentLink400Response.md)
+- [GeneratePaymentLinkRequest](doc//GeneratePaymentLinkRequest.md)
+- [GeneratePaymentLinkResponse](doc//GeneratePaymentLinkResponse.md)
+- [GeneratePaymentLinkResponseData](doc//GeneratePaymentLinkResponseData.md)
+- [GeneratePaymentLinkResponseDataPspUri](doc//GeneratePaymentLinkResponseDataPspUri.md)
+- [GetTransactionStatusResponse](doc//GetTransactionStatusResponse.md)
+- [GetTransactionStatusResponseData](doc//GetTransactionStatusResponseData.md)
+- [GetTransactionStatusResponseError](doc//GetTransactionStatusResponseError.md)
+- [IssueCollectRequest400Response](doc//IssueCollectRequest400Response.md)
+- [IssueCollectRequestRequest](doc//IssueCollectRequestRequest.md)
+- [IssueCollectRequestResponse](doc//IssueCollectRequestResponse.md)
+- [IssueCollectRequestResponseData](doc//IssueCollectRequestResponseData.md)
+- [IssueUpiRefund400Response](doc//IssueUpiRefund400Response.md)
+- [IssueUpiRefundRequest](doc//IssueUpiRefundRequest.md)
+- [IssueUpiRefundResponse](doc//IssueUpiRefundResponse.md)
+- [IssueUpiRefundResponseData](doc//IssueUpiRefundResponseData.md)
+- [ValidateUpiHandle400Response](doc//ValidateUpiHandle400Response.md)
+- [ValidateUpiHandleRequest](doc//ValidateUpiHandleRequest.md)
+- [ValidateUpiHandleResponse](doc//ValidateUpiHandleResponse.md)
+- [ValidateUpiHandleResponseData](doc//ValidateUpiHandleResponseData.md)

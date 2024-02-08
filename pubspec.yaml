@@ -6,7 +6,7 @@ name: 'decentro_in_collections'
 version: '1.0.0'
 description: 'Collections'
 homepage: 'https://decentro.tech'
-repository: https://github.com/decentro-in/decentro-in-collections-sdk/tree/master/dart
+repository: https://github.com/decentro-in/decentro-in-collections-sdk-dart/tree/master
 environment:
   sdk: '>=2.12.0 <3.0.0'
 dependencies:
